@@ -6,3 +6,5 @@ Modified rules keep large enough (500x500+) field always alive, with new activit
 Modified rules (on top of classical ones):
 1. If cell is alive for 100 cycles, it has to either die or reborn (age is reset to 1). Chance of death is set to 1%.
 2. If cell is dead but for 100 cycles had at least one alive neighbour, then if it has exactly 2 neighbours, it has 1% chance of becoming alive. Otherwise, counter is reset to 0.
+
+Project is developed on Linux and uses SDL2, SDL2_ttf libraries. Can be easily ported on any system that supports SDL2, and also to any other system with rewriting drawing functions.
